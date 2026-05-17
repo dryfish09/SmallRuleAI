@@ -11,7 +11,7 @@ namespace SRA
 		{
 			Console.WriteLine("Hi there! What's up!");
 		}
-		static void ElseHandle()
+		static void HandleElse()
 		{
 			ConsoleWriteLine("Sorry, I don'tbnow about that");
 		}
