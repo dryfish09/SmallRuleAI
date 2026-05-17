@@ -3,15 +3,15 @@ namespace SRA
 {
 	class Response
 	{
-		static void HandleNull()
+		public static void HandleNull()
 		{
 			Console.WriteLine("Oops! Please talk anything!");
 		}
-		static void Greet()
+		public static void Greet()
 		{
 			Console.WriteLine("Hi there! What's up!");
 		}
-		static void HandleElse()
+		public static void HandleElse()
 		{
 			ConsoleWriteLine("Sorry, I don'tbnow about that");
 		}
