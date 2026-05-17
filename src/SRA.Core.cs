@@ -3,7 +3,7 @@ namespace SRA
 {
 	class Core
 	{
-		static void Logic()
+		public static void Logic()
 		{
 			bool run = true;
 			while(run)
