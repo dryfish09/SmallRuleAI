@@ -9,7 +9,7 @@ namespace SRA
 			while(run)
 			{
 				Console.Write("You: ");
-				string input = Console.ReadLine()?.ToLower.Trim ?? "";
+				string input = Console.ReadLine()?.ToLower().Trim() ?? "";
 				Console.Write(" AI: ");
 				if(string.IsNullOrWhiteSpace(input))
 				{
