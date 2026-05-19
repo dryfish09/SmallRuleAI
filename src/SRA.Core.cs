@@ -21,7 +21,7 @@ namespace SRA
 				}
 				else if(input.Contains("how are you") || input.Contains("how r u") || input.Contains("how r you"))
 				{
-					Response.HowRYou();
+					Response.SayFine();
 				}
 				else if(input == "exit")
 				{
