@@ -19,8 +19,13 @@ namespace SRA
 				{
 					Response.Greet();
 				}
+				else if(input.Contains("how are you") || input.Contains("how r u") || input.Contains("how r you"))
+				{
+					Response.HowRYou();
+				}
 				else if(input == "exit")
 				{
+					Response.SayBye();
 					run = false;
 				}
 				else
