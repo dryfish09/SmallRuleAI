@@ -11,7 +11,7 @@ namespace SRA
 		{
 			Console.WriteLine("Hi there! What's up!");
 		}
-		public static void HowRYou()
+		public static void SayFine()
 		{
 			Console.WriteLine("Fine, thank you!");
 		}
