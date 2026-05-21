@@ -1,0 +1,32 @@
+# Labels cho Dependabot
+- name: "dependencies"
+  color: "0366d6"
+  description: "Pull requests that update a dependency file"
+
+- name: "nuget"
+  color: "004880"
+  description: "NuGet package dependencies"
+
+- name: "github-actions"
+  color: "2088FF"
+  description: "GitHub Actions dependencies"
+
+- name: "security"
+  color: "ee0701"
+  description: "Security updates"
+
+- name: "major"
+  color: "d93f0b"
+  description: "Major version update"
+
+- name: "minor"
+  color: "f9d0c4"
+  description: "Minor version update"
+
+- name: "patch"
+  color: "c2e0c6"
+  description: "Patch version update"
+
+- name: "automerge"
+  color: "0e8a16"
+  description: "Automatically merge this PR"
