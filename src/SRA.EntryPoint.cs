@@ -8,9 +8,9 @@ namespace SRA
         {
             Random rand = new Random();
             string[] Starts = {
-                "Hello! Let's start a new happy day by chatting with me!",
-                "How can I help you?",
-                "Ready to start?"
+                "Hello! Let's start a new happy day by chatting with me! Type 'exit' to exit.",
+                "How can I help you? If not, please type 'exit'.",
+                "Ready to start? Type 'exit' to exit or not ready."
             };
             string start = Starts[rand.Next(Starts.Length)];
             Console.WriteLine(start);
