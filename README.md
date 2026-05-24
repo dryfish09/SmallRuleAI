@@ -31,7 +31,7 @@ SRA/
 ### Clone and Build
 
 ```bash
-git clone https://github.com/realmg51-cpu/SmallRuleAI.git
+git clone https://github.com/dryfish09/SmallRuleAI.git
 cd SmallRuleAI/src
 dotnet restore
 dotnet build
@@ -117,7 +117,7 @@ MIT License - feel free to use, modify, and distribute.
 
 ## 👨‍💻 Author
 
-RealMG
+Dry Fish
 
 ---
 
