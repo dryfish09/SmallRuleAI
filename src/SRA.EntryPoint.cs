@@ -1,5 +1,5 @@
 using System;
-
+using DryFish.ILib;
 namespace SRA
 {
     class Program
@@ -20,7 +20,8 @@ namespace SRA
             }
             catch (Exception e) 
             {
-                Console.WriteLine($"Unexpected error: {e}");
+                ILib.ILogError($"Unexpected error detected: {e}");
+                ILib.IExit(1);
             }
         }
     }
