@@ -1,4 +1,5 @@
 using System;
+using DryFish.ILib;
 namespace SRA
 {
 	class Core
@@ -8,9 +9,13 @@ namespace SRA
 			bool run = true;
 			while(run)
 			{
+				ILib.ISetConsoleColor("green");
 				Console.Write("You: ");
+				ILib.IResetConsoleColor();
 				string input = Console.ReadLine()?.ToLower().Trim() ?? "";
-				Console.Write(" AI: ");
+				ILib.ISetConsoleColor(" cyan");
+				Console.Write("bot: ");
+				ILib.IResetConsoleColor();
 				if(string.IsNullOrWhiteSpace(input))
 				{
 					Response.HandleNull();
