@@ -1,6 +1,6 @@
 using System;
 
-namespace SRA
+namespace NtAI
 {
     class Response
     {
