@@ -1,5 +1,5 @@
 
-# SRA Simple Console Chatbot
+NtAI - Not an AI
 
 A lightweight, rule-based console chatbot built with C#. This project demonstrates basic programming concepts including input handling, conditional logic, and modular code organization.
 
@@ -12,14 +12,8 @@ A lightweight, rule-based console chatbot built with C#. This project demonstrat
 - Null/empty input handling
 - Basic error handling with try-catch
 
-## 🏗️ Project Structure
+Response messages handler
 
-```
-SRA/
-├── SRA.EntryPoint.cs   - Entry point, exception handling
-├── SRA.Core.cs         - Main chat logic and loop control
-└── SRA.InputHandle.cs  - Response messages handler
-```
 
 ## 📋 Prerequisites
 
@@ -31,8 +25,8 @@ SRA/
 ### Clone and Build
 
 ```bash
-git clone https://github.com/dryfish09/SmallRuleAI.git
-cd SmallRuleAI/src
+git clone https://github.com/dryfish09/NtAI.git
+cd NtAI/src
 dotnet restore
 dotnet build
 ```
