@@ -17,8 +17,8 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     env:
-      Solution_Name: SmallRuleAI.sln
-      Project_Path: src/SRA.csproj
+      Solution_Name: NtAI.sln
+      Project_Path: src/NtAI.csproj
 
     steps:
     - name: Checkout
