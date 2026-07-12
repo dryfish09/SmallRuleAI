@@ -1,6 +1,6 @@
 using System;
 using DryFish.ILib;
-namespace SRA
+namespace NtAI
 {
 	class Core
 	{
