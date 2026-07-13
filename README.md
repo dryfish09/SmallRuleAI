@@ -1,5 +1,5 @@
 
-NtAI - Not an AI
+# NtAI - Not an AI
 
 A lightweight, rule-based console chatbot built with C#. This project demonstrates basic programming concepts including input handling, conditional logic, and modular code organization.
 
